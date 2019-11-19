@@ -11,5 +11,5 @@ def test_add_nothing():
     assert add() == 1
 def test_divide0():
     with pytest.raises(ZeroDivisionError):
-        div(5, 0)
+        div(5, 4, 0)
 
